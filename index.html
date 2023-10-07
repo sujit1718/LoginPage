@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        input[type="text"]{;
+            border: none;
+            border-bottom: 1px solid;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            outline: none;
+        }
+        input[type="text"]:hover{
+            border-bottom: 2px solid rgb(7, 233, 75);
+        }
+        input[type="password"]{
+            border: none;
+            border-bottom: 1px solid;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            outline: none;
+        }
+        input[type="password"]:hover{
+            border: none;
+            border-bottom: 2px solid rgb(7, 233, 75);
+        }
+        .mdiv a{
+            text-decoration: none;
+            text-align: right;
+            color: gray;
+        }
+        .mdiv button{
+             border-radius: 30px;
+             padding: 13px;
+             border: none;
+             font-size: 15px;
+             width: 50%;
+                
+        }
+        .mdiv{
+            height: 100vh;
+            width: 100%;
+            background-image: url(https://cdn.create.vista.com/api/media/small/7190041/stock-vector-vector-glass-login-page);
+            background-repeat: no-repeat;
+            z-index: -3;
+            position: fixed;
+            background-position: center;
+            background-size: 100%;
+            top: 0px;
+            left: 0px;
+            background-size: cover;
+            
+        }
+        .mdiv form{
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 5px;
+            padding: 15px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mdiv">   
+    <form>
+        <h2 style="text-align: center;">WELCOME</h2>
+        <label>Username : </label>
+        <input type="text"><br><br>
+        <label>Password : </label>
+        <input type="password"><br><br>
+        <a href="#">Forgot Password?</a><br><br>
+        <button>LOGIN</button>
+    </form>
+    </div>
+</body>
+</html>
